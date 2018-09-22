@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "http://consultancystaging.s3-website-us-east-1.amazonaws.com/"
 languageCode = "en-us"
 title = "Consultancy"
 theme = "base"
