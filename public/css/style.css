@@ -2135,11 +2135,11 @@ footer .small-icon li {margin: 0 8px;}
 
 /* country flag icon */
 .icon-country {width: 16px; height: 16px; display: inline-block; margin:0 10px 0 5px; vertical-align: middle;}
-.icon-country.usa {background:url("../images/country-flag-16X16/usa.png")}
-.icon-country.england {background:url("../images/country-flag-16X16/england.png")}
-.icon-country.china {background:url("../images/country-flag-16X16/china.png")}
+.icon-country.usa {background:url("/images/country-flag-16X16/usa.png")}
+.icon-country.england {background:url("/images/country-flag-16X16/england.png")}
+.icon-country.china {background:url("/images/country-flag-16X16/china.png")}
 .icon-country.hong-kong {background:url("../images/country-flag-16X16/hong-kong.png")}
-.icon-country.france {background:url("../images/country-flag-16X16/france.png")}
+.icon-country.france {background:url("/images/country-flag-16X16/france.png")}
 
 /* ===================================
     Magnific popup
@@ -2771,8 +2771,8 @@ header.sticky nav.navbar.brand-center ul.nav > li > a {padding: 20px; margin: 0 
 .swiper-blog .swiper-slide.swiper-slide-active .slide-content {opacity: 1; transition-delay: 0.3s; -webkit-transition-delay: 0.3s; -moz-transition-delay: 0.3s; -ms-transition-delay: 0.3s; -o-transition-delay: 0.3s; transform: translateY(0); -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0);}
 
 /* long arrow */
-.swiper-button-prev.slider-long-arrow-white, .swiper-container-rtl .swiper-button-next.slider-long-arrow-white {background-image:url('../images/arrow-prev-light-dark.png'); left: 0 }
-.swiper-button-next.slider-long-arrow-white, .swiper-container-rtl .swiper-button-prev.slider-long-arrow-white { background-image:url('../images/arrow-next-light-dark.png'); right: 0 }
+.swiper-button-prev.slider-long-arrow-white, .swiper-container-rtl .swiper-button-next.slider-long-arrow-white {background-image:url('/images/arrow-prev-light-dark.png'); left: 0 }
+.swiper-button-next.slider-long-arrow-white, .swiper-container-rtl .swiper-button-prev.slider-long-arrow-white { background-image:url('/images/arrow-next-light-dark.png'); right: 0 }
 
 /* next prev button style 2 */
 .swiper-next-style2,.swiper-prev-style2 {position: absolute; bottom: -60px; cursor: pointer; text-transform: uppercase}
@@ -2800,8 +2800,8 @@ header.sticky nav.navbar.brand-center ul.nav > li > a {padding: 20px; margin: 0 
 .swiper-button-prev.swiper-prev-style5 {opacity: 0; background: -moz-linear-gradient(left, rgba(0,0,0,0.5), transparent); background: -webkit-linear-gradient(left, rgba(0,0,0,0.5), transparent); background: linear-gradient(to right, rgba(0,0,0,0.5), transparent);}
 .swiper-button-next.swiper-next-style5  {opacity: 0; background: -moz-linear-gradient(right, rgba(0,0,0,0.5), transparent); background: -webkit-linear-gradient(right, rgba(0,0,0,0.5), transparent); background: linear-gradient(to left, rgba(0,0,0,0.5), transparent);}
 .swiper-button-prev.swiper-prev-style5:hover, .swiper-button-next.swiper-next-style5:hover  {opacity: 1; transition-duration: 0.3s; -webkit-transition-duration: 0.3s; -moz-transition-duration: 0.3s; -ms-transition-duration: 0.3s; -o-transition-duration: 0.3s;}
-.swiper-button-prev.swiper-prev-style5 {left: 0; cursor: url('../images/arrow-prev-light-dark.png'), pointer;}
-.swiper-button-next.swiper-next-style5 {right: 0; cursor: url('../images/arrow-next-light-dark.png'), pointer;}
+.swiper-button-prev.swiper-prev-style5 {left: 0; cursor: url('/images/arrow-prev-light-dark.png'), pointer;}
+.swiper-button-next.swiper-next-style5 {right: 0; cursor: url('/images/arrow-next-light-dark.png'), pointer;}
 
 /* dot pagination white */
 .swiper-pagination-white .swiper-pagination-bullet {background:#fff}
